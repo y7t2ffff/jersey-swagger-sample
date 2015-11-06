@@ -14,11 +14,8 @@ import org.glassfish.jersey.server.ResourceConfig;
 @ApplicationPath("API")
 public class APIService extends ResourceConfig {
 
-//驗證碼前綴
-  static public String md5Pre = "fgoeDDpwseSa";
-
   public APIService() {
-    packages("com.nani.api");
+    packages("org.c96.jersey.swagger.sample");
     //須註冊這個才可以上傳檔案
     register(MultiPartFeature.class);
 //    register(CharsetResponseFilter.class);

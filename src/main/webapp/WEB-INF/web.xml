@@ -18,7 +18,7 @@
     </init-param>
     <init-param>
       <param-name>swagger.api.basepath</param-name>
-      <param-value>http://localhost:8081/mavenproject1/API</param-value>
+      <param-value>http://localhost:8081/jersey-swagger-sample/API</param-value>
     </init-param>
     <load-on-startup>2</load-on-startup>
   </servlet> 
